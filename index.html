@@ -9,48 +9,14 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-pen.css" rel="stylesheet">
     <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-pen.css" rel="stylesheet">
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript">
-          google.charts.load('current', {'packages':['corechart']});
-          google.charts.setOnLoadCallback(drawChart);
-    
-          function drawChart() {
-            var data = google.visualization.arrayToDataTable([
-              ['Speed', 'People'],
-              ['0ms',  0,],
-              ['25ms',  0],
-              ['50ms',  0],
-              ['75ms',  10],
-              ['100ms',  20],
-              ['125ms',  50],
-              ['150ms',  100],
-              ['175ms',  180],
-              ['200ms',  220],
-              ['225ms',  210],
-              ['250ms',  150],
-              ['275ms',  100],
-              ['300ms',  50],
-              ['325ms',  40],
-              ['350ms',  30],
-              ['375ms',  20],
-              ['400ms',  10],
-              ['425ms',  5],
-              ['450ms',  5],
-              ['475ms',  0],
-            ]);
-    
-            var options = {
-              title: 'reaction-time-tester',
-              hAxis: {title: 'speed',  titleTextStyle: {color: '#333'}},
-              vAxis: {minValue: 0}
-            };
-    
-            var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
-            chart.draw(data, options);
-          }
-        </script>
-</head>
 <body>
+
+  <header>
+    <nav>
+      <span><a href="index.html">Game</a></span>
+      <span><a href="2.html">Chart</a></span>
+    </nav>
+  </header>
     <div class="back">
         <div id="screen" class="waiting" > 클릭해서 시작하세요! </div>
         <div class="resultAvg"></div>

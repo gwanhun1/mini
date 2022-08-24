@@ -1,13 +1,28 @@
 body{
     margin: 0px;
 }
+header {
+    position: fixed;
+    top: 0;
+    right: 20px;
+    font-family: 'NanumPen';
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+span{
+    margin-left: 10px;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+
 #screen{
     height: 100vh;
     text-align: center;
     user-select: none;
 }
 #screen.waiting{
-    background-color: aqua;
+    background-color: rgb(138, 230, 230);
     font-size:  50px;
     font-family: 'NanumPen';
 }
@@ -19,7 +34,7 @@ body{
 
 }
 #screen.now{
-    background-color: greenyellow;
+    background-color: rgb(191, 248, 105);
     font-size:  50px;
     font-family: 'NanumPen';
 
@@ -29,9 +44,11 @@ body{
 }
 .resultAvg{
     color: black;
+    font-weight: bold;
     position: fixed;
-    left: 100px;
-    top: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     font-size: 30px;
     font-family: 'NanumBarunPenBold';
 }
@@ -40,4 +57,21 @@ body{
     position: fixed;
     left: 100px;
     top: 210px;
+}
+a {
+    color: #2a2e31;
+    background-color: #90b6d1;
+    border: 1px solid #2d6e9c;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 30px;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+a:active {
+    box-shadow: 0 3px 0 #40b3bb;
+    top: 3px;
 }
