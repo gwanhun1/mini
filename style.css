@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+#screen{
+    height: 100vh;
+    text-align: center;
+    user-select: none;
+}
+#screen.waiting{
+    background-color: aqua;
+    font-size:  50px;
+    font-family: 'NanumPen';
+}
+#screen.ready{
+    background-color: red;
+    color: white;
+    font-size:  50px;
+    font-family: 'NanumPen';
+
+}
+#screen.now{
+    background-color: greenyellow;
+    font-size:  50px;
+    font-family: 'NanumPen';
+
+}
+.back{
+    margin: auto;
+}
+.resultAvg{
+    color: black;
+    position: fixed;
+    left: 100px;
+    top: 300px;
+    font-size: 30px;
+    font-family: 'NanumBarunPenBold';
+}
+.result{
+    color: black;
+    position: fixed;
+    left: 100px;
+    top: 210px;
+}
