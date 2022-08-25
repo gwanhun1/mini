@@ -23,7 +23,8 @@
   font-style: normal;
 }
 body{
-    margin:0px
+    margin:0px;
+    background-color: rgb(232, 235, 238)
 }
 nav{
   background-image: url('back.jpg');
@@ -58,7 +59,8 @@ nav{
     background-color: rgb(56, 57, 63);
     color: white;
     font-family: '-KITA-Regular';
-    line-height:300px
+    line-height:300px;
+    border-radius:  0 1% 1% 0;
   }
   #screen.ready {
     background-color: red;
