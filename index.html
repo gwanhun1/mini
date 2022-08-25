@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>반응속도 테스트</title>
-    <script src="main.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-pen.css" rel="stylesheet">
-    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-pen.css" rel="stylesheet">
+<meta charset="utf-8" />
+<title>반응속도</title>
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
 <body>
-
-  <header>
     <nav>
-      <span><a href="index.html">Game</a></span>
-      <span><a href="2.html">Chart</a></span>
+        <div class="nav">Reset</div>
+        <div class="nav">Record</div>
+        <div class="nav">Bulid</div>
     </nav>
-  </header>
-    <div class="back">
-        <div id="screen" class="waiting" > 클릭해서 시작하세요! </div>
-        <div class="resultAvg"></div>
-        <div id="chart_div" style=" display: inline;width: 40%; height: 350px; top: 50px;"></div>
-    </div>
+    <span class="game">
+        <div id="screen" class="waiting">클릭해서 시작하세요</div>
+        <div id="result"></div>
+    </span>
+    <span class="chart">what`s your average<canvas id="line-chart" width="300%" height="100"></canvas>
+    </canvas></span>
+    <footer class="make">bulid by</footer>
 </body>
 </html>
