@@ -31,20 +31,24 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  text-align: center;
+  
 }
 .nav{
   font-family: 'ulsanjunggu';
   margin: auto;
   position: relative;
   display: inline-block;
-  left: 45%;
-  transform: translate(-50%, 0%);
-  font-size: 50px;
+  font-size: 60px;
   margin-left: 30px;
   margin-right: 30px;
-  padding-top: 75px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 110px;
   font-weight: bold;
+}
+.resetClick{
+  text-decoration: none;
+  color: black;
 
 }
 .navLine{
@@ -59,6 +63,7 @@ nav{
     user-select: none;
     font-size: 40px;
     font-weight: bold;
+    margin-right: 30px;
   }
   #screen.waiting {
     background-color: rgb(56, 57, 63);
@@ -66,6 +71,8 @@ nav{
     font-family: '-KITA-Regular';
     line-height:300px;
     border-radius:  0 1% 1% 0;
+    cursor: pointer;
+
   }
   #screen.ready {
     background-color: red;
@@ -73,12 +80,14 @@ nav{
     font-family: '-KITA-Regular';
     line-height:300px;
     border-radius:  0 1% 1% 0;
+    cursor: pointer;
   }
   #screen.now {
     background-color: rgb(187, 245, 100);
     font-family: '-KITA-Regular';
     line-height:300px;
     border-radius:  0 1% 1% 0;
+    cursor: pointer;
   }
   .game{
       margin: auto;
@@ -93,33 +102,71 @@ nav{
   }
   .chart{
     font-family: 'KyoboHandwriting2020A';
-    margin-left: 10px;
-    top: 30%;
-    font-size: 30px;
+    margin-right: 20px;
+    top: 33%;
+    text-align: center;
+    font-size: 40px;
     position: fixed;
     display: inline-block;
-    width:45%;
-    height: 200px;
+    width:40%;
+    height: 300px;
   }
   #result{
     font-family: 'OTWelcomeRA';
     position: fixed;
-    top: 67%;
+    top: 74%;
     left: 77%;
     font-size: 25px;
   }
   .make{
     border-radius:  1%;
-
-    margin-top: 180px;
+    margin-top: 70px;
     margin-left: 20px;
     width: 50%;
     height: 500px;
     background-color: rgb(86, 88, 94);
+    display: inline-block;
   }
 .makeBack{
   margin-top: 70px;
   background-color: rgba(222, 229, 236, 0.699)
 }
 .makeBack2{
-  padding-top: 20px;}
+  padding-top: 20px;
+}
+.bulid{
+  font-size: 100px;
+  font-family: '-KITA-Regular';
+  color: white;
+  padding-top: 130px;
+  padding-left: 100px;
+}
+.buliList{
+  color: white;
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-family: 'KyoboHandwriting2020A';
+}
+.tell{
+  border-radius:  1%;
+  margin-left: 170px;
+  width: 50%;
+  height: 300px;
+  margin-top: 10px;
+  background-color: rgb(86, 88, 94);
+}
+.contact{
+  font-size: 100px;
+  font-family: '-KITA-Regular';
+  color: white;
+  padding-top: 35px;
+  padding-left: 100px;
+}
+.contactList{
+  color: white;
+  font-size: 40px;
+  margin-left: 240px;
+  margin-top: 25px;
+  font-family: 'KyoboHandwriting2020A';
+}

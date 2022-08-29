@@ -1,6 +1,9 @@
 
   const $screen = document.querySelector('#screen');
   const $result = document.querySelector('#result');
+  const $reset = document.querySelector('#reset');
+  const $record = document.querySelector('#result');
+  const $build = document.querySelector('#build');
  
   let startTime;
   let endTime;
@@ -55,3 +58,14 @@
       ]
     }
   });
+// $record.addEventListener('click',function(){
+//   const average = records.reduce((a, c) => a + c) / records.length;
+//   if(average.length === 5){
+// for(let i=0;i<5;i++){
+//     average.sort();
+//     console.log(average)
+//   }
+//   }
+
+  
+// })
